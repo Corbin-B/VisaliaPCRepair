@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #container {
 	width: 1000px;
 	margin: 0 auto;
@@ -114,3 +115,121 @@
 
 	background: #ccc;
 }
+=======
+#container {
+	width: 1000px;
+	margin: 0 auto;
+
+	background: #fff;
+}
+
+#header {
+	padding: 20px;
+
+	background: #ccc;
+}
+
+#header h1 {
+	margin: 0;
+}
+
+#navigation {
+	float: left;
+
+	width: 1000px;
+
+	background: #333;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li {
+	display: inline;
+
+	list-style-type: none;
+}
+
+#navigation li a {
+	display: block;
+	float: left;
+
+	padding: 5px 10px;
+
+	text-decoration: none;
+
+	color: #fff;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover {
+	background: #06f;
+}
+
+#content-container {
+	float: left;
+
+	width: 1000px;
+
+	background: #fff url(/wp-content/uploads/layout-three-fixed-background.gif) repeat-y 100% 0;
+}
+
+#section-navigation {
+	display: inline;
+	float: left;
+
+	width: 160px;
+	margin: 0 20px;
+	padding: 20px 0;
+}
+
+#section-navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#section-navigation ul li {
+	margin: 0 0 1em;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+#content {
+	float: left;
+
+	width: 500px;
+	margin: 0 0 0 30px;
+	padding: 20px 0;
+}
+
+#content h2 {
+	margin: 0;
+}
+
+#aside {
+	display: inline;
+	float: right;
+
+	width: 200px;
+	margin: 0 20px 0 0;
+	padding: 20px 0;
+}
+
+#aside h3 {
+	margin: 0;
+}
+
+#footer {
+	clear: left;
+
+	height: 1%;
+	padding: 20px;
+
+	text-align: right;
+
+	background: #ccc;
+}
+>>>>>>> e8215991feb7b0f0e7b20e1f54280d35a422692a
